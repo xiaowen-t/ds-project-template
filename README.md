@@ -1,10 +1,11 @@
 # Essentials
 Based on [cookiecutter data science project structure](https://drivendata.github.io/cookiecutter-data-science/).
 ```
-root
+project
 ├── data                      
-|   ├── raw                    
-|   └── processed             <- Data ready for modeling.
+|   ├── raw                       
+|   ├── interim               <- Intermediate data that has been transformed.      
+|   └── processed             <- Data ready for modeling
 │
 ├── models                    <- Trained and serialized models.
 |
@@ -22,19 +23,19 @@ root
 |     ├── test_model.py                
 |     └── ...
 │
-├── requirements.txt
+├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+│
+├── requirements.txt          <- pip install requirements.txt
 └── .gitignore
 ```
 
 # More
 ```
-root  
+project  
 ├── LICENSE
 ├── Makefile           <- Makefile with commands like `make data` or `make train`
 ├── setup.py           <- Make this project pip installable with `pip install -e`
 ├── docs               <- Sphinx or MKDocs?
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
 │
 └── tox.ini            <- Automate and standardize testing
 ```
