@@ -1,0 +1,9 @@
+data/raw/*
+data/processed/*
+model/*
+
+# credentials
+kaggle.json
+
+# others
+__pycache__/

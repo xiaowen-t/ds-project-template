@@ -1,4 +1,4 @@
-# Basic structure
+# Essentials
 ```
 root
 ├── data                      
@@ -13,11 +13,7 @@ root
 ├── src                       <- Source code for use in this project.
 |   ├── data                  <- Scripts to prepare data
 |   ├── model                 <- Scripts to train models
-|   ├── utils                 <- Helper functions for use in this project.
-|     ├── data
-|     └── model  
 |   └── tests                 <- Testing functions with the same structure in /src 
-|     ├── test_utils.py                
 |     ├── test_data.py                  
 |     ├── test_model.py                
 |     └── ...
@@ -25,11 +21,12 @@ root
 └── requirements.txt
 ```
 
-# Others
+# More
+- 
 ```
 root  
+├── setup.py          <- Make this project pip installable with `pip install -e`
 ├── docs              <- Sphinx or MKDocs?
 │
-├── setup.py          <- Make this project pip installable with `pip install -e`
 └── tox.ini
 ```
