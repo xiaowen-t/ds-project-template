@@ -1,5 +1,5 @@
-# Essentials
 Based on [cookiecutter data science project structure](https://drivendata.github.io/cookiecutter-data-science/).
+# Essentials
 ```
 project
 ├── data                      
