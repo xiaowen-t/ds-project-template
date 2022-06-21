@@ -1,4 +1,13 @@
-# Essentials
+# Data Science Project Template
+Ensuring reproducibility of experiments requires:
+- Consistent data
+    - raw data version (date)
+    - processing pipelines
+- Consistent model 
+    - random seeds
+    - hyperparameters
+  
+# Basic
 Based on [cookiecutter data science project structure](https://drivendata.github.io/cookiecutter-data-science/).
 ```
 project
@@ -23,7 +32,7 @@ project
 |     ├── test_model.py                
 |     └── ...
 │
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+├── references                <- Data dictionaries, manuals, and all other explanatory materials.
 │
 ├── requirements.txt          <- pip install requirements.txt
 └── .gitignore
