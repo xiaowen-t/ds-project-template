@@ -1,9 +1,13 @@
 # Checklists
-## 1. Prepare data
-- Missing values
-- Assumptions 
-  - data acquisition process
-  - Incorrect data
+## 1. Data Wrangling
+1. Load Data
+2. Tidy data
+3. Cleaning data
+   - Missing values
+     - data acquisition process
+   - Assumptions based on Domain Knowledge
+     - Incorrect data
+4. Data Validation
 ## 2. Univariate analysis
 - Assumptions -> Domain Knowledge!
 - Frequency distribution
