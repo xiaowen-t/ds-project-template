@@ -30,6 +30,7 @@
 - Validation & Metrics
 
 ## Ref
-1. Jeff Leek: The Elements of Data Analytic Style
-
+1. Jeff Leek: The Elements of Data Analytic Style.
+2. uchicago: [Computing for the Social Sciences](https://cfss.uchicago.edu/notes/relational-data/).
+3. Hadley Wickham: [Tidy Data](https://vita.had.co.nz/papers/tidy-data.pdf).
 
