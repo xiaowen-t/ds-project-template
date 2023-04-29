@@ -1,40 +1,28 @@
 # Data Science Project Template
-This project aims to build a common template that can guarantee the correctness and reproducibility of data science projects.  
-
-It includes:
-- A unified directory structure.
-- Documents in each subdirectories.
-- Example notebooks.
-- Necessary utility and test functions.
-## 1. Approach
-### 1.1 Correctness
+This project aims to provide a standardized template for data science projects that ensures correctness and reproducibility. 
+## Best practices
+### Ensuring Correctness
 - Data Validation
-  - [Pandera](https://pandera.readthedocs.io/en/stable/) or other tools
+  - Use [Pandera](https://pandera.readthedocs.io/en/stable/) or other validation tools to ensure data accuracy, consistency, completeness, and format.
 - Code Validation
-  - Unit Testing
-  - [PEP8](https://peps.python.org/pep-0008/) or other convention
-  - Code reviews
-- Assumption Verification
-  - A/B Test
-  - Endogenous feature
+  - Use unit testing to test code functionality.
+  - Use PEP8 or other coding conventions to ensure coding style consistency.
+  - Conduct code reviews to ensure code readability, maintainability, and correctness.
 - Uncertainty Quantification
-  - Parameter uncertainty
-  - Structural uncertainty
-  - Experimental uncertainty
-### 1.2 Reproducibility
+  - Quantify parameter uncertainty, structural uncertainty, and experimental uncertainty.
+### Ensuring Reproducibility
 - Consistent data
     - consistent raw data
-      - Time frame
-      - Data Provenance
+      - Use consistent raw data, including time frame and data provenance.
+      - Use consistent processing pipelines to transform the data.
     - consistent processing pipelines
 - Consistent model 
-    - Fixed random seeds
-    - Consistent hyperparameters
+    - Use fixed random seeds for the model to ensure that the results are replicable.
+    - Use consistent hyperparameters.
 - Documentation
-  - Keep a journal
-  - Document ***why***
+  - Data, Assumptions, Methods, Parameters, Results, Limitations, Interpretation.
 
-## 2. Basic Structure
+## Structure
 Based on [cookiecutter data science project structure](https://drivendata.github.io/cookiecutter-data-science/).
 ```
 project
@@ -78,4 +66,4 @@ project
 
 # Ref
 1. [Cookiecutter data science project structure](https://drivendata.github.io/cookiecutter-data-science/).  
-2. [Correctness in Data Science - Data Science Pop-up Seattle](https://www.slideshare.net/dominodatalab/data-science-popup-seattle-correctness-in-data-science).
+2. [Tidy Data](https://vita.had.co.nz/papers/tidy-data.pdf)
